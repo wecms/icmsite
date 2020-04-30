@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/icmsite/',
+    base: '/',
     title: 'WeCMS Develop Docs',
     description: 'open develop tips and tricks',
     head: [
