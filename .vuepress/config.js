@@ -7,7 +7,7 @@ module.exports = {
             { rel: 'icon', href: '/favicon.ico' }   //浏览器的标签栏的网页图标,基地址/docs/.vuepress/public
         ],
     ],
-    dest: '/.vuepress/dist', // 指定 vuepress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析
+    //dest: '/.vuepress/dist', // 指定 vuepress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析. 添加这个配置后 cloudflare 报错Error: EACCES: permission denied, mkdir '/.vuepress'
     markdown: {
         lineNumbers: true,  //是否在每个代码块的左侧显示行号
     },

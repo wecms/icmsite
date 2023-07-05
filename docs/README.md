@@ -217,6 +217,8 @@ module.exports = {
 
 [Deploy a Vuepress site · Cloudflare Pages docs](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vuepress-site/)
 
+[Build configuration · Cloudflare Pages docs](https://developers.cloudflare.com/pages/platform/build-configuration)
+
 ### 其他参考
 
 [CloudFlare自动部署GitHub仓库的VuePress文档_github可以在cloudflare上部署吗_m0_60595450的博客-CSDN博客](https://blog.csdn.net/m0_60595450/article/details/128104290)
