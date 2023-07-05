@@ -1,4 +1,7 @@
 # icms-site
+
+The documentation use VuePress 1.x.
+
 The documentation source of [icmsite](https://github.com/wecms/icmsite)
 
 [Online](https://wecms.github.io/icmsite)
