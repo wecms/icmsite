@@ -31,6 +31,28 @@ open http://localhost:8080/icmsite/
 
 原理是执行了`./deploy.sh`脚本，具体步骤可看`./deploy.sh`脚本内容。
 
+也可以在 package.json 里加一些脚本：
+
+```json
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy-gh": "GH=1 yarn docs:build && bash ./deploy-gh.sh"
+  }
+}
+```
+
+它的作用如下：
+
+`GH=1`：设置一个环境变量 GH 的值为 1，用于在后续的构建脚本和部署脚本中进行判断。注意在 Windows 系统上设置环境变量`set GH=1`和Linux上不同。
+
+我的直接这样写：`"deploy": "sh ./deploy.sh"`
+
+`yarn docs:build`：运行 yarn 命令的 docs:build 脚本，用于构建 VuePress 网站。
+
+`bash scripts/deploy-gh.sh`：运行 `./deploy-gh.sh` 脚本，用于将构建好的网站部署到 GitHub Pages 上。
+
 [一篇带你用 VuePress + Github Pages 搭建博客 - 掘金](https://juejin.cn/post/7041134607869149215)
 
 [部署 VuePress 到 GitHub Pages (超详细) - 掘金](https://juejin.cn/post/6844904122873806856)
@@ -42,3 +64,11 @@ open http://localhost:8080/icmsite/
 虽然可使用自定义 GitHub Actions 工作流进行发布站点，但是限于GitHub Pages网速，这里建议配合Cloudflare Pages使用，Git提交推送后，Cloudflare Pages自动静态页部署。
 
 See detail [配合cloudflare-pages使用-git提交自动静态页部署](/docs/#配合cloudflare-pages使用-git提交自动静态页部署)
+
+## 查看我的站点
+
+[Cloudflare Pages master branch build](https://blog.prodev.cn/)
+
+[Cloudflare Pages master branch build https://icmsite.pages.dev/](https://icmsite.pages.dev/)
+
+[GitHub Pages gh-pages branch static file](https://dev.prodev.cn/)
