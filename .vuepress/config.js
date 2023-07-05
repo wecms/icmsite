@@ -25,7 +25,7 @@ module.exports = {
         sidebar: [
             {
                 // 必要的，分组的标题文字
-                title: "Group 1",
+                title: "指南", // Group 1
                 // 可选的, 分组标题对应的图标
                 icon: "bar",
                 // 可选的, 分组标题对应的链接
@@ -40,9 +40,9 @@ module.exports = {
                 children: ["/"],
               },
               {
-                title: "Group 2",
+                title: "博客", // Group 2
                 children: [
-                  /* ... */
+                  ['/docs/', '文章']
                 ],
               },
         ],
