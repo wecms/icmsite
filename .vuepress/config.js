@@ -18,7 +18,7 @@ module.exports = {
         nav: [
             //链接页面链接的根地址为/docs
             { text: '首页', link: '/' },
-            { text: '文章', link: '/blog/' }
+            { text: '文章', link: '/docs/' }
         ],
         sidebarDepth: 2,    //侧边栏深度
         //侧边栏
