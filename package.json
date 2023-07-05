@@ -4,8 +4,8 @@
   "description": "New Pc Development env Init",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
   },
   "author": "icms",
   "license": "ISC",
