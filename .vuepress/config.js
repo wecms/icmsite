@@ -18,7 +18,8 @@ module.exports = {
         nav: [
             //链接页面链接的根地址为/docs
             { text: '首页', link: '/' },
-            { text: '文章', link: '/docs/' }
+            { text: '文章', link: '/docs/' },
+            { text: 'Vue', link: '/vue/' } // 须/结尾，否则变为docs/vue.html
         ],
         sidebarDepth: 2,    //侧边栏深度
         //侧边栏
@@ -42,7 +43,8 @@ module.exports = {
               {
                 title: "博客", // Group 2
                 children: [
-                  ['/docs/', '文章']
+                  ['/docs/', '文章'],
+                  ['/vue/', 'Vue']
                 ],
               },
         ],
