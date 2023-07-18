@@ -228,3 +228,34 @@ module.exports = {
 [教程[6] 使用 cloudflare pages 来搭建静态网站 - huggy's blog](https://blog.huggy.moe/posts/2021/2-cloudflare-pages/)
 
 [Cloudflare 免费动态托管对比Workers vs Pages - 知乎](https://zhuanlan.zhihu.com/p/453095371)
+
+## 每次推送以后 GitHub Pages 填写的 Custom domain 丢失
+
+开始遇到，在更新推送到GitHub Pages以后，之前设置的GitHub Pages Custom domain 会丢失，每次更新以后都手动更新，后来发现需要在deploy.sh脚本中写入文件。
+
+- D:\Hostv\icmsite\.vuepress\dist
+- D:\Hostv\icmsite\docs\.vuepress\dist
+- deploy.sh 添加上CNAME
+
+通过shell添加上CNAME 文件。
+
+```sh
+#deploy.sh
+
+# 如果是发布到自定义域名
+echo 'www.example.com' > CNAME
+```
+
+下面是官方的说明：
+
+如果您从分支发布，自定义域将存储在发布源根目录下的 CNAME 文件中。您可以通过存储库设置或手动添加或更新此文件。
+
+为了使您的网站能够在正确的域中呈现，请确保您的 CNAME 文件仍然存在于存储库中。例如，许多静态站点生成器会强制推送到您的存储库，这可能会覆盖您在配置自定义域时添加到存储库中的 CNAME 文件。如果您在本地构建站点并将生成的文件推送到 GitHub，请确保首先将添加 CNAME 文件的提交拉取到本地存储库，以便该文件将包含在构建中。
+
+### 参考文档
+
+1. [对自定义域和 GitHub Pages 进行故障排除 - GitHub Docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages)
+2. [部署 | VuePress](https://vuepress.vuejs.org/zh/guide/deploy.html#github-pages)
+3. [vuepress配置github pages域名访问 - 掘金](https://juejin.cn/post/7073673074087821319)
+4. [将 vuepress 部署到 GitHub pages 并启用 ZEIT/vercel 加速&域名 - 知乎](https://zhuanlan.zhihu.com/p/335817431)
+   

@@ -10,6 +10,8 @@ npx vuepress build .
 # 进入生成的文件夹
 #cd docs/.vuepress/dist
 cd .vuepress/dist
+# 如果是发布到自定义域名
+echo 'dev.prodev.cn' > CNAME
 
 #我加的命令
 eval `ssh-agent`

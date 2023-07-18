@@ -1,6 +1,6 @@
 # Docker Issue
 
-## Vue2 父子组件响应式传值
+## docker 启动 MaraiaDB时报错
 
 docker 启动 MaraiaDB时报错：
 
