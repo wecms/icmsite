@@ -20,7 +20,8 @@ module.exports = {
             { text: '首页', link: '/' },
             { text: '文章', link: '/docs/' },
             { text: 'Vue', link: '/vue/' }, // 须/结尾，否则变为docs/vue.html
-            { text: 'Docker', link: '/docker/' } // 须/结尾，否则变为docs/vue.html
+            { text: 'Docker', link: '/docker/' },
+            { text: 'Live Well', link: '/livewell/' },
         ],
         sidebarDepth: 2,    //侧边栏深度
         //侧边栏
@@ -46,7 +47,8 @@ module.exports = {
                 children: [
                   ['/docs/', '文章'],
                   ['/vue/', 'Vue'],
-                  ['/docker/', 'Docker']
+                  ['/docker/', 'Docker'],
+                  ['/livewell/', 'Live Well'],
                 ],
               },
         ],
