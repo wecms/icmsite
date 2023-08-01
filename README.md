@@ -89,3 +89,24 @@ See detail [配合cloudflare-pages使用-git提交自动静态页部署](/docs/#
 
 也是直接使用Git推送到Github，使用Cloudflare Workers and Pages线上编译打包运算能力。
 
+### 使用Docusaurus创建的站点参考
+
+1. [Hello from go-things | go-things](https://go-things.github.io/)
+2. [K3s - 轻量级 Kubernetes | K3s](https://docs.k3s.io/zh/)
+3. [Casbin · An authorization library that supports access control models like ACL, RBAC, ABAC](https://casbin.org/zh/)
+4. [Casdoor · An Open Source UI-first Identity Access Management](https://casdoor.org/zh/)
+5. [SRS (Simple Realtime Server) | SRS](https://ossrs.net/lts/zh-cn/)
+
+### 参考文献
+
+1. [Installation | Docusaurus](https://docusaurus.io/zh-CN/docs/installation)
+
+2. [Troubleshooting custom domains and GitHub Pages - GitHub Docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages)
+
+3. [Branch build controls · Cloudflare Pages docs](https://developers.cloudflare.com/pages/platform/branch-build-controls/#preview-branch-control)
+
+其他参考文献
+
+[博客迁移记 · 从 Cloudflare Workers 到 Cloudflare Pages | TripleZ's Blog](https://blog.triplez.cn/posts/cf-workers-to-pages/)
+
+[物联网技术指南](https://iot.mushuwei.cn/#/)
