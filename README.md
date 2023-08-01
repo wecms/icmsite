@@ -67,8 +67,25 @@ See detail [配合cloudflare-pages使用-git提交自动静态页部署](/docs/#
 
 ## 查看我的站点
 
-[Cloudflare Pages master branch build](https://blog.prodev.cn/)
+[Cloudflare Pages master branch build  https://blog.prodev.cn/](https://blog.prodev.cn/)
 
 [Cloudflare Pages master branch build https://icmsite.pages.dev/](https://icmsite.pages.dev/)
 
-[GitHub Pages gh-pages branch static file](https://dev.prodev.cn/)
+直接使用Git推送到Github，使用Cloudflare Workers and Pages线上编译打包运算能力。
+
+[GitHub Pages gh-pages branch static file https://dev.prodev.cn/](https://dev.prodev.cn/)
+
+在本地使用自定义命令 `npm run deploy` 本地编译打包运算能力。然后再推送到gh-pages分支。
+
+## 使用Docusaurus创建的站点
+
+1. [部署在Github Pages上的 https://doc-github.prodev.cn/ ](https://doc-github.prodev.cn/)
+
+直接使用Git推送到Github，使用Github Pages线上编译打包运算能力。
+
+或者在本地使用自定义命令 `npm run shell` 本地编译打包运算能力。然后再推送到gh-pages分支。
+
+2. [部署在Cloudflare Workers and Pages上的 https://doc-github.prodev.cn/ ](https://doc-cloudflare.prodev.cn//)
+
+也是直接使用Git推送到Github，使用Cloudflare Workers and Pages线上编译打包运算能力。
+
