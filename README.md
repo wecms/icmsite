@@ -85,7 +85,7 @@ See detail [配合cloudflare-pages使用-git提交自动静态页部署](/docs/#
 
 或者在本地使用自定义命令 `npm run shell` 本地编译打包运算能力。然后再推送到gh-pages分支。
 
-2. [部署在Cloudflare Workers and Pages上的 https://doc-github.prodev.cn/ ](https://doc-cloudflare.prodev.cn//)
+2. [部署在Cloudflare Workers and Pages上的 https://doc-cloudflare.prodev.cn/ ](https://doc-cloudflare.prodev.cn/)
 
 也是直接使用Git推送到Github，使用Cloudflare Workers and Pages线上编译打包运算能力。
 
