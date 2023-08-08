@@ -96,6 +96,7 @@ See detail [配合cloudflare-pages使用-git提交自动静态页部署](/docs/#
 3. [Casbin · An authorization library that supports access control models like ACL, RBAC, ABAC](https://casbin.org/zh/)
 4. [Casdoor · An Open Source UI-first Identity Access Management](https://casdoor.org/zh/)
 5. [SRS (Simple Realtime Server) | SRS](https://ossrs.net/lts/zh-cn/)
+6. [JuiceFS Document Center](https://juicefs.com/docs/zh/)
 
 ### 参考文献
 
@@ -110,3 +111,19 @@ See detail [配合cloudflare-pages使用-git提交自动静态页部署](/docs/#
 [博客迁移记 · 从 Cloudflare Workers 到 Cloudflare Pages | TripleZ's Blog](https://blog.triplez.cn/posts/cf-workers-to-pages/)
 
 [物联网技术指南](https://iot.mushuwei.cn/#/)
+
+## 站点更新
+
+1. Publish GitHub Pages
+
+```bash
+npm run deploy
+```
+
+在本地编译打包，并使用脚本自动推送到GitHub Pages下gh-pages分支。
+
+2. Publish Cloudflare Pages
+
+直接Git push 推送即可。
+
+直接使用Git推送到Github，使用Cloudflare Workers and Pages线上编译打包运算能力，自动编译并更新到站点。
