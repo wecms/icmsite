@@ -97,6 +97,7 @@ See detail [配合cloudflare-pages使用-git提交自动静态页部署](/docs/#
 4. [Casdoor · An Open Source UI-first Identity Access Management](https://casdoor.org/zh/)
 5. [SRS (Simple Realtime Server) | SRS](https://ossrs.net/lts/zh-cn/)
 6. [JuiceFS Document Center](https://juicefs.com/docs/zh/)
+7. [Build smaller, faster, and more secure desktop applications with a web frontend | Tauri Apps](https://tauri.app/zh-cn/)
 
 ### 参考文献
 
