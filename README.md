@@ -98,6 +98,14 @@ See detail [配合cloudflare-pages使用-git提交自动静态页部署](/docs/#
 5. [SRS (Simple Realtime Server) | SRS](https://ossrs.net/lts/zh-cn/)
 6. [JuiceFS Document Center](https://juicefs.com/docs/zh/)
 7. [Build smaller, faster, and more secure desktop applications with a web frontend | Tauri Apps](https://tauri.app/zh-cn/)
+8. [欢迎使用 ent | ent](https://entgo.io/zh/blog/2019/10/03/introducing-ent/)
+
+### 使用VuePress创建的站点
+
+[主页 | Simple Admin](https://doc.ryansu.pro/zh/)
+
+[主题介绍 | vuepress-theme-hope](https://theme-hope.vuejs.press/zh/guide/get-started/intro.html)
+
 
 ### 参考文献
 
